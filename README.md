@@ -1,247 +1,45 @@
-# 💬 UNSAID
+# UNSAID
 
-Isang fucking anonymous messaging web application kung saan puwedeng magpadala ng mensahe sa isang tao nang **hindi kailangang gumawa ng account**.
+Isang fucking anonymous messaging web application built with **PHP, MySQL, HTML, CSS, and JavaScript**, made as a school project kasi apparently hindi sapat ang simpleng contact form. May sariling profile, shareable link, anonymous messages, attachments, inbox, reports, admin panel, at kung anu anong shit na kailangan para hindi maging digital chaos ang buong system. Basically, may gusto kang sabihin pero ayaw mong magpakilala? Sige, type mo na lang.
 
-May gusto kang sabihin pero nahihiya ka?
+**Project Status:** ACTIVE / STILL ALIVE
 
-Sabihin mo nigga.
+**CLICK ME:** https://unsaid.gt.tc
 
-Ayaw mong malaman kung sino ka?
+**WARNING:** Your antivirus or browser security might randomly decide na mukhang suspicious website ito. Hindi ako fucking hacker, relax. Anonymous messaging website lang ito with PHP and MySQL. Check the source and repository if you're unsure instead of blindly trusting random shit from the internet.
 
-**Perfect. Walang pangalan. Walang account. Walang "Please enter your valid email address."**
+### What This Shit Can Do
 
-Rekta salita. Rekta send. Bahala na si Batman.
+UNSAID lets users create their own profile and shareable link where other people can send anonymous messages without creating an account. May **custom message prompt, custom placeholder, image and GIF attachments, links, read and unread status, message search, deletion, and printing**. Basically, may inbox ka para sa lahat ng bagay na hindi kayang sabihin nang diretso. Compliment, confession, random thought, tanong, o isang message na dapat sana pinag isipan muna bago pindutin ang Send.
 
-## 🟢 Project Status
+May **reporting and moderation system** din para sa mga anonymous messages na abusive, inappropriate, spam, or just plain kupal. Reported activity can be reviewed through the Admin Panel, where the admin can manage users, messages, reports, bans, and available technical information. Anonymous ang sender sa normal user, pero hindi ibig sabihin na naging fucking magical ghost ka na sa system.
 
-**ACTIVE / STILL ALIVE**
+### Admin Panel
 
-CLICK ME: https://unsaid.gt.tc
+May private **Admin Panel** para sa system management at moderation. Dito puwedeng tingnan ang users, messages, reports, reported activity, at available technical information tulad ng **IP address, country, device, browser, operating system, date, and time**.
 
-School requirement lang ’to, sinolo ko MAGISA and ako gumawa, nag present, nag report, nag ewan hahah naka hardcore ako boss.
-Soooooooooooooooooooooooooooooooooooooooooo ok tulog na ko.
+Hindi ito ginawa para mang stalk. Para ito sa moderation, security, at abuse prevention. Anonymous messaging still needs a fucking referee.
 
-## ✨ Mga IDK haha
+### Privacy and Security
 
-* 💬 Anonymous messaging
-* 👤 May sariling profile at shareable link ang bawat user
-* 🕵️ Hindi kailangan ng account para magpadala ng mensahe
-* 📝 Custom message prompt at placeholder
-* 📎 Puwedeng mag-attach ng images, GIFs, at links
-* 🚫 Walang video attachments
-* 📏 May limitasyon sa laki ng attachments
-* 📬 Read at unread message status
-* 🗑️ Puwedeng mag-delete ng messages
-* 🔎 May message search
-* 🖨️ Puwedeng mag-print ng messages
-* 📄 Puwedeng mag-print ng isang partikular na message
-* 🚩 May reporting system para sa masasamang anonymous messages
-* 🔨 Admin ay pwedeng mag-review ng reports
-* 🚫 Admin ay pwedeng mag-ban o mag-delete ng reported anonymous users
-* 👨‍💼 May Admin Panel
-* 🌍 Admin ay pwedeng makakita ng country information
-* 💻 May impormasyon tungkol sa device, browser, at operating system
-* 🕒 May oras at petsa ng messages
-* 📱 Responsive sa cellphone at computer
+The system includes basic security measures such as **input validation, protected database operations, session based authentication, restricted admin access, file upload restrictions, attachment size limits, and report moderation**.
 
-## 🕵️ Paano Gumagana?
+The sender does not need an account or direct identifying information to send a message, pero the system can still keep available technical information for security and moderation. Anonymous ≠ invisible.
 
-### 1. Gumawa ng Account
+### Tech Stack
 
-Gagawa muna ng account ang taong gustong makatanggap ng anonymous messages.
+**PHP, MySQL, HTML5, CSS3, JavaScript, XAMPP, and phpMyAdmin.**
 
-May sarili siyang profile at link na puwedeng i-share.
+PHP handles the backend logic, MySQL handles the application data, while HTML, CSS, and JavaScript handle the actual interface and interactions. Simple stack lang. Walang giant framework, walang unnecessary bullshit, just enough technology para makapag send ang isang stranger ng anonymous message at makarating sa inbox mo.
 
-### 2. I-share ang Profile
+### About
 
-I-share ang iyong UNSAID profile link sa friends, social media, o kung saan mo gustong ilagay.
+UNSAID was made as a **solo school project**, from building the application and database to testing, reporting, and presenting the whole fucking thing.
 
-Example:
+The original idea was simple: some things are easier to type than say directly. Somehow nauwi ito sa user accounts, profiles, anonymous messaging, attachments, inbox management, reporting, moderation, technical information, and an entire Admin Panel.
 
-```text
-unsaid.example/profile.php?username=david
-```
+Basically, may mga bagay talagang mas madaling sabihin kapag walang pangalan.
 
-### 3. Magpadala ng Anonymous Message
+UNSAID exists for exactly that.
 
-Bubuksan ng ibang tao ang profile mo at puwede silang magpadala ng message.
-
-**Hindi nila kailangang gumawa ng account.**
-
-Walang pangalan. Walang username.
-
-Walang:
-
-> "Hi David, ako nga pala si Boss Ramon at im gonna touch your tight anus."
-
-Nope.
-
-**Anonymous ka, pare.**
-
-### 4. Basahin ang Message
-
-Makikita ng recipient ang mga natanggap niyang messages sa kanyang inbox.
-
-May read at unread status para malaman kung alin na ang nabasa.
-
-### 5. May Kupal na Anonymous Sender?
-
-Kung may nagpadala ng inappropriate, abusive, o simpleng **"tangina mo"** na message na wala namang ambag sa lipunan, puwedeng i-report ang anonymous sender.
-
-Dito papasok ang admin. (WHICH IS ME DAAAH)
-
-## 🚩 Reporting System
-
-May reporting system ang UNSAID para sa mga anonymous messages na lumalabag sa rules ng platform.
-
-Kapag may nireport na anonymous sender:
-
-1. Matatanggap ng admin ang report.
-2. Makikita ng admin ang available na impormasyon tungkol sa reported user.
-3. Maaaring suriin ng admin ang reported activity.
-4. Maaaring tanggalin ng admin ang anonymous user.
-5. Maaaring i-ban ng admin ang anonymous user kung kinakailangan.
-
-Kaya kahit anonymous ang sender, **hindi ibig sabihin na invisible ka sa system.**
-
-Anonymous ≠ magical ghost.
-
-## 👨‍💼 Admin Panel
-
-May sariling Admin Panel ang UNSAID para sa system management.
-
-Maaaring gamitin ng admin ang panel para sa:
-
-* Pagtingin sa users
-* Pagtingin sa messages
-* Pagtingin sa reports
-* Pag-review ng reported users
-* Pag-delete ng reported users
-* Pag-ban ng anonymous users
-* Pagtingin sa available technical information
-* Pamamahala ng system data
-
-Kasama sa available information ang:
-
-* Username
-* Oras at petsa
-* IP address
-* Country
-* Device
-* Browser
-* Operating system
-
-**Hindi ito para mang-stalk.**
-
-Para ito sa moderation at security.
-
-## 🔐 Privacy at Security
-
-Dahil anonymous messaging ang pangunahing konsepto ng UNSAID, mahalaga ang maayos na paghawak ng user data.
-
-Ang system ay may mga security measures tulad ng:
-
-* Input validation
-* Database protection
-* Session based authentication
-* Protected admin access
-* File upload restrictions
-* Attachment size limits
-* Report and moderation system
-
-Ang anonymity ay feature ng platform, pero ginagamit lamang ang available technical information para sa **security, moderation, at abuse prevention.**
-
-## 🔎 Message Management
-
-Hindi lang basta inbox ang UNSAID.
-
-Puwedeng:
-
-* Mag-search ng messages
-* Markahan bilang read o unread
-* Mag-delete ng messages
-* Mag-print ng messages
-* Mag-print ng isang specific na message
-
-Kaya kung gusto mong hanapin yung isang message na sinend noong isang linggo:
-
-**search button ang iyong kaibigan, my nigga.**
-
-## 📱 Responsive Design
-
-Ginawa ang UNSAID para gumana sa iba't ibang screen sizes.
-
-* 📱 Cellphone
-* 💻 Laptop
-* 🖥️ Desktop
-* 📟 Tablet
-
-Kase hindi naman lahat ng tao nag-a-anonymous message gamit ang NASA supercomputer.
-
-## 🛠️ Mga Ginamit
-
-* **PHP**
-* **MySQL**
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **XAMPP**
-
-## 🗄️ Database
-
-Gumagamit ang UNSAID ng MySQL database para sa iba't ibang data ng application.
-
-Kabilang dito ang:
-
-* User accounts
-* Profiles
-* Anonymous messages
-* Message status
-* Reports
-* Banned users
-* Attachments
-* Iba pang kinakailangang system information
-
-## 🚀 How to run ts
-
-### Mga Kailangan
-
-* XAMPP
-* PHP
-* MySQL
-* Web browser
-
-## 🎯 Goal ng Project ko na 'to
-
-Ang UNSAID ay ginawa para magkaroon ng simple at madaling gamitin na paraan ng pagpapadala ng anonymous messages.
-
-Ang idea ay simple:
-
-> **May gusto kang sabihin? Sabihin mo.**
-
-Hindi kailangan ng account para sa sender.
-
-Hindi kailangan ng mahabang registration.
-
-Hindi kailangan ng identity reveal.
-
-Pero kapag may nag-abuso sa system:
-
-**Admin enters the fucking chat.**
-
-## 🧠 Bakit UNSAID?
-
-Maraming bagay ang gustong sabihin ng mga tao pero minsan ayaw nilang sabihin nang direkta.
-
-Puwedeng:
-
-* Compliment
-* Confession
-* Advice
-* Question
-* Random thought
-* Feedback
-* O isang napaka-questionable na message na sana pinag-isipan muna bago pinindot ang Send
-* Wala kanin buseng? P*tngin*ng hayop na yan.
-
-At doon pumapasok ang UNSAID.
+Пока живой.
