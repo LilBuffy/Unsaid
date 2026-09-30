@@ -3,7 +3,7 @@
 date_default_timezone_set('Asia/Manila');
 
 $DB_HOST = "localhost";
-$DB_NAME = "unsaid";
+$DB_NAME = "FUCKYOU";
 $DB_USER = "root";
 $DB_PASS = "";
 $DB_CHARSET = "utf8mb4";
